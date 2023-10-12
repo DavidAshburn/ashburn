@@ -2,12 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
 
 @layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+  .responsive {
+    @apply bg-sky-500 sm:bg-green-500 md:bg-yellow-500 lg:bg-orange-500 xl:bg-red-500;
+  }
+  .rbord {
+    @apply border-2 border-red-600;
+  }
+  .obord {
+    @apply border-2 border-orange-600;
+  }
+  .ybord {
+    @apply border-2 border-yellow-600;
+  }
+  .gbord {
+    @apply border-2 border-green-600;
+  }
+  .bbord {
+    @apply border-2 border-blue-600;
+  }
+  .ibord {
+    @apply border-2 border-violet-600;
+  }
+  .vbord {
+    @apply border-2 border-pink-600;
+  }
+  .rback {
+    @apply  bg-red-600/20;
+  }
+  .oback {
+    @apply  bg-orange-600/20;
+  }
+  .yback {
+    @apply  bg-yellow-600/20;
+  }
+  .gback {
+    @apply  bg-green-600/20;
+  }
+  .bback {
+    @apply  bg-blue-600/20;
+  }
+  .iback {
+    @apply  bg-violet-600/20;
+  }
+  .vback {
+    @apply  bg-pink-600/20;
   }
 }
-
-*/
